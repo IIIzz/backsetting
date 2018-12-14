@@ -1,0 +1,77 @@
+#root{
+    height: 100%;
+}
+.ant-layout.ant-layout-has-sider{
+    height: 100%;
+}
+.anticon.anticon-menu-fold.trigger{
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+   
+  .user {
+      float: right;
+      line-height: 64px;
+      font-size: 18px;
+      padding-right: 35px;
+      cursor: pointer;
+  }
+
+.anticon.anticon-menu-fold.trigger:hover {
+  color: #1890ff;
+}
+
+.anticon.anticon-menu-unfold.trigger.trigger{
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+
+  .anticon.anticon-menu-unfold.trigger:hover {
+  color: #1890ff;
+}
+ .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+.ant-pagination {
+    padding: 20px;
+
+}
+.atd-pagination::after{
+    clear: both;
+    content: '';
+    display: block;
+    
+}
+.ant-col-sm-5{
+    width:auto;
+}
+ .ant-col-sm-12{
+    width: 70%;
+}
+.cpy-option {
+    width: 170px;
+}
+.echart-model{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 80px;
+    background: white;
+
+}
+.jcl-home .ant-form.ant-form-inline{
+    padding: 0 50px;
+   }
+.datapick-wrap {
+    /* width: 200px; */
+}
+ .datapick-wrap-data{
+    margin-right: 0px !important;
+}
